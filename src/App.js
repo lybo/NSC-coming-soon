@@ -45,8 +45,8 @@ export default class App extends React.PureComponent {
                         <path d="M1038.9 90.3065C1034.47 96.5393 1027.41 100.417 1019.24 100.417C1004.28 100.417 998.047 86.2898 998.047 64.8212V63.4362H1039.59C1040.42 45.7073 1030.18 34.3497 1013.28 34.3497C992.785 34.3497 978.382 51.5246 978.382 73.5472C978.382 93.3536 989.184 110.251 1009.96 110.251C1025.47 110.251 1034.05 100.694 1039.73 90.8605L1038.9 90.3065ZM1012.73 36.2888C1021.45 36.2888 1023.53 45.9843 1022.42 61.22H998.186C998.74 48.4774 1003.03 36.2888 1012.73 36.2888Z" fill="#3D3D3D" />
                         <path d="M1105.17 90.3065C1100.74 96.5393 1093.67 100.417 1085.5 100.417C1070.55 100.417 1064.32 86.2898 1064.32 64.8212V63.4362H1105.86C1106.69 45.7073 1096.44 34.3497 1079.55 34.3497C1059.05 34.3497 1044.65 51.5246 1044.65 73.5472C1044.65 93.3536 1055.45 110.251 1076.23 110.251C1091.74 110.251 1100.32 100.694 1106 90.8605L1105.17 90.3065ZM1079 36.2888C1087.72 36.2888 1089.8 45.9843 1088.69 61.22H1064.45C1065.01 48.4774 1069.3 36.2888 1079 36.2888Z" fill="#3D3D3D" />
                     </svg>
-                    <h3>How many roasters are there in the Nordics? And how many of those roast nordic style coffee?</h3> 
-                    <p className='lead'>These questions motivated us to build a marketplace for specialty coffee lovers – a place where we can find roasters and coffee bars for our daily coffee. We hope to show you the answers soon.</p>
+                    <p className='lead'>How many roasters are there in the Nordics? And how many of those roast nordic style coffee?</p> 
+                    <p className=''>These questions motivated us to build a marketplace for specialty coffee lovers – a place where we can find roasters and coffee bars for our daily coffee. We hope to show you the answers soon.</p>
                 </div>
             </div>
         );
