@@ -4,47 +4,74 @@
 body {
     font-family: ivystyle-sans, sans-serif;
     margin: 0;
+}
 
-    h1,h2,h3,h4,h5,h6 {
-        font-family: ivystyle-sans, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        line-height: 130%;
-        margin-bottom: 1rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: ivystyle-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 130%;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+.map-container {
+    height: 100vh;
+}
+
+.nsc-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: auto;
+    max-width: 90vw;
+    padding: 50px 30px 30px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15), 0px 64px 64px rgba(219, 219, 219, 0.16);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        margin-bottom: 30px;
+        max-width: 500px;
     }
+}
 
-    p {
-        font-size: 16px;
-        line-height: 160%;
-        .lead{
-            font-size: 18px;
-        }
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
-    .map-container {
-        height: 100vh;
-    }
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     .nsc-card {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 800px;
-        height: auto;
-        max-width: 90vw;
-        padding: 100px 50px 50px;
-        background: rgba(255, 255, 255, 0.75);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15), 0px 64px 64px rgba(219, 219, 219, 0.16);
-        backdrop-filter: blur(30px);
-        /* Note: backdrop-filter has minimal browser support */
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        svg{
+        padding: 70px 50px 50px;
+        svg {
             margin-bottom: 40px;
         }
     }
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
